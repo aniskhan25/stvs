@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="110119_saliency"
+	Name="stvs"
 	ProjectGUID="{67C9782F-5A32-4699-B1B8-A0887C10D5E8}"
 	RootNamespace="My110119_saliency"
 	TargetFrameworkVersion="196613"
@@ -187,7 +187,47 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\main.cpp"
+				RelativePath=".\STA_Gabor.cu"
+				>
+			</File>
+			<File
+				RelativePath=".\STA_Interact.cu"
+				>
+			</File>
+			<File
+				RelativePath=".\STA_Mask.cu"
+				>
+			</File>
+			<File
+				RelativePath=".\STA_Normalize.cu"
+				>
+			</File>
+			<File
+				RelativePath=".\STA_Pathway.cu"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="Cudart Build Rule"
+						Runtime="3"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\STA_Reduce.cu"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="Cudart Build Rule"
+						Runtime="3"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\STA_Transform.cu"
 				>
 			</File>
 		</Filter>
@@ -248,47 +288,7 @@
 			>
 		</Filter>
 		<File
-			RelativePath=".\STA_Gabor.cu"
-			>
-		</File>
-		<File
-			RelativePath=".\STA_Interact.cu"
-			>
-		</File>
-		<File
-			RelativePath=".\STA_Mask.cu"
-			>
-		</File>
-		<File
-			RelativePath=".\STA_Normalize.cu"
-			>
-		</File>
-		<File
-			RelativePath=".\STA_Pathway.cu"
-			>
-			<FileConfiguration
-				Name="Debug|Win32"
-				>
-				<Tool
-					Name="Cudart Build Rule"
-					Runtime="3"
-				/>
-			</FileConfiguration>
-		</File>
-		<File
-			RelativePath=".\STA_Reduce.cu"
-			>
-			<FileConfiguration
-				Name="Debug|Win32"
-				>
-				<Tool
-					Name="Cudart Build Rule"
-					Runtime="3"
-				/>
-			</FileConfiguration>
-		</File>
-		<File
-			RelativePath=".\STA_Transform.cu"
+			RelativePath=".\main.cpp"
 			>
 		</File>
 	</Files>
